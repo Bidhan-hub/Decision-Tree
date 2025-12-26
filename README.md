@@ -1,2 +1,4 @@
 # Decision-Tree
 This project uses a Decision Tree to predict if a salary exceeds 100k based on company, job, and degree.
+Project Summary:
+This project uses a Decision Tree classifier to predict whether an individual’s salary exceeds 100k based on features such as company, job role, and education degree. The categorical columns (company, job, and degree) are first converted into numerical values using Label Encoding, enabling the machine learning model to process them. The dataset is split into training and testing sets, the Decision Tree is trained on the training data, and model performance is evaluated using accuracy on the test set. The trained model can also predict the salary category for new employees, allowing users to input specific values like company, job, and degree to determine whether the salary is expected to be above 100k.
